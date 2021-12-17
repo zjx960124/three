@@ -9,89 +9,102 @@ class Map {
 
     init() {
         // 第一步新建一个场景
-        this.scene = new THREE.Scene()
-        this.activeInstersect = []
-        this.setRenderer()
-        this.setCamera()
-        this.setController()
-        this.setRaycaster()
-        this.animate()
-        //this.loadMapData()
-        this.addFont()
-        this.addHelper()
+        this.scene = new THREE.Scene();
+        this.activeInstersect = [];
+        this.setRenderer();
+        this.setCamera();
+        this.setController();
+        this.setRaycaster();
+        this.animate();
+        this.loadMapData();
+        // this.addFont();
+        this.addHelper();
     }
 
     // 加载地图数据
     loadMapData() {
         const loader = new THREE.FileLoader()
         loader.load('/china.json', (data) => {
-            const jsondata = JSON.parse(data)
+            console.log(data)
+            const jsondata = JSON.parse(data);
             this.generateGeometry(jsondata)
         })
     }
 
     generateGeometry(jsondata) {
+        console.log('初始化地图')
         // 初始化一个地图对象
         this.map = new THREE.Object3D()
         // 墨卡托投影转换
         const projection = d3
           .geoMercator()
           .center([104.0, 37.5])
-          .translate([0, 0])
+          .translate([0, 0]);
 
         jsondata.features.forEach((elem) => {
             // 定一个省份3D对象
-            const province = new THREE.Object3D()
+            const province = new THREE.Object3D();
             // 每个的 坐标 数组
-            const coordinates = elem.geometry.coordinates
+            const coordinates = elem.geometry.coordinates;
+            console.log(coordinates);
             // 循环坐标数组
             coordinates.forEach((multiPolygon) => {
+                console.log(multiPolygon)
                 multiPolygon.forEach((polygon) => {
-                    const shape = new THREE.Shape()
+                    const shape = new THREE.Shape();
                     const lineMaterial = new THREE.LineBasicMaterial({
                         color: 'white',
-                    })
-                    const lineGeometry = new THREE.Geometry()
-
+                    });
+                    const lineGeometry = new THREE.BufferGeometry();
+                    // const oldGeometry = new THREE.Geometry();
                     for (let i = 0; i < polygon.length; i++) {
-                        const [x, y] = projection(polygon[i])
+                        console.log(polygon[i]);
+                        const [x, y] = projection(polygon[i]);
+                        console.log(x, y);
                         if (i === 0) {
                             shape.moveTo(x, -y)
                         }
-                        shape.lineTo(x, -y)
-                        lineGeometry.vertices.push(new THREE.Vector3(x, -y, 5))
+                        shape.lineTo(x, -y);
+                        var vertices = new Float32Array([
+                            x, -y //顶点1坐标
+                        ]);
+                        // oldGeometry.vertices.push(new THREE.Vector3(x, -y, 5));
+                        lineGeometry.addAttribute( 'position', new THREE.Vector3( x, -y, 5 ) );
+                        // lineGeometry.addAttribute('position', new THREE.BufferAttribute([x, -y, 5], 3))
                     }
+
+                    console.log(lineGeometry);
 
                     const extrudeSettings = {
                         depth: 10,
                         bevelEnabled: false,
-                    }
+                    };
 
                     const geometry = new THREE.ExtrudeGeometry(
                       shape,
                       extrudeSettings
-                    )
+                    );
                     const material = new THREE.MeshBasicMaterial({
                         color: '#2defff',
                         transparent: true,
                         opacity: 0.6,
-                    })
+                    });
                     const material1 = new THREE.MeshBasicMaterial({
                         color: '#3480C4',
                         transparent: true,
                         opacity: 0.5,
-                    })
+                    });
 
-                    const mesh = new THREE.Mesh(geometry, [material, material1])
-                    const line = new THREE.Line(lineGeometry, lineMaterial)
+                    const mesh = new THREE.Mesh(geometry, [material, material1]);
+                    const line = new THREE.Line(lineGeometry, lineMaterial);
                     // 将省份的属性 加进来
-                    province.properties = elem.properties
-                    province.add(mesh)
+                    province.properties = elem.properties;
+                    province.add(mesh);
                     province.add(line)
                 })
-            })
+            });
             this.map.add(province)
-        })
+        });
         this.scene.add(this.map)
     }
 
