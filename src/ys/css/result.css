@@ -1,0 +1,640 @@
+.wish-result-image {
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.BLUE {
+  box-shadow: 0 0 20px #2a5caa;
+}
+
+.PURPLE {
+  box-shadow: 0 0 20px purple;
+}
+
+.GOLD {
+  box-shadow: 0 0 20px #ffd400;
+}
+
+.SGOLD {
+  box-shadow: 0 0 20px orange;
+}
+
+.alley-hunter {
+  background-image: url(../images/weapons/alley-hunter.png);
+}
+
+.amber-catalyst {
+  background-image: url(../images/weapons/amber-catalyst.png);
+}
+
+.amenoma-kageuchi {
+  background-image: url(../images/weapons/amenoma-kageuchi.png);
+}
+
+.amos-bow {
+  background-image: url(../images/weapons/amos-bow.png);
+}
+
+.apprentices-notes {
+  background-image: url("../images/weapons/apprentice's-notes.png");
+}
+
+.aquila-favonia {
+  background-image: url(../images/weapons/aquila-favonia.png);
+}
+
+.beginners-protector {
+  background-image: url("../images/weapons/beginner's-protector.png");
+}
+
+.blackcliff-amulet {
+  background-image: url(../images/weapons/blackcliff-amulet.png);
+}
+
+.blackcliff-longsword {
+  background-image: url(../images/weapons/blackcliff-longsword.png);
+}
+
+.blackcliff-pole {
+  background-image: url(../images/weapons/blackcliff-pole.png);
+}
+
+.blackcliff-slasher {
+  background-image: url(../images/weapons/blackcliff-slasher.png);
+}
+
+.blackcliff-warbow {
+  background-image: url(../images/weapons/blackcliff-warbow.png);
+}
+
+.black-tassel {
+  background-image: url(../images/weapons/black-tassel.png);
+}
+
+.bloodtainted-greatsword {
+  background-image: url(../images/weapons/bloodtainted-greatsword.png);
+}
+
+.compound-bow {
+  background-image: url(../images/weapons/compound-bow.png);
+}
+
+.cool-steel {
+  background-image: url(../images/weapons/cool-steel.png);
+}
+
+.crescent-pike {
+  background-image: url(../images/weapons/crescent-pike.png);
+}
+
+.dark-iron-sword {
+  background-image: url(../images/weapons/dark-iron-sword.png);
+}
+
+.deathmatch {
+  background-image: url(../images/weapons/deathmatch.png);
+}
+
+.debate-club {
+  background-image: url(../images/weapons/debate-club.png);
+}
+
+.dragons-bane {
+  background-image: url(../images/weapons/dragons-bane.png);
+}
+
+.dull-blade {
+  background-image: url(../images/weapons/dull-blade.png);
+}
+
+.ebony-bow {
+  background-image: url(../images/weapons/ebony-bow.png);
+}
+
+.elegy-for-the-end {
+  background-image: url(../images/weapons/elegy-for-the-end.png);
+}
+
+.emerald-orb {
+  background-image: url(../images/weapons/emerald-orb.png);
+}
+
+.engulfing-lightning {
+  background-image: url(../images/weapons/engulfing-lightning.png);
+}
+
+.everlasting-moonglow {
+  background-image: url(../images/weapons/everlasting-moonglow.png);
+}
+
+.eye-of-perception {
+  background-image: url(../images/weapons/eye-of-perception.png);
+}
+
+.favonius-codex {
+  background-image: url(../images/weapons/favonius-codex.png);
+}
+
+.favonius-greatsword {
+  background-image: url(../images/weapons/favonius-greatsword.png);
+}
+
+.favonius-lance {
+  background-image: url(../images/weapons/favonius-lance.png);
+}
+
+.favonius-sword {
+  background-image: url(../images/weapons/favonius-sword.png);
+}
+
+.favonius-warbow {
+  background-image: url(../images/weapons/favonius-warbow.png);
+}
+
+.ferrous-shadow {
+  background-image: url(../images/weapons/ferrous-shadow.png);
+}
+
+.fillet-blade {
+  background-image: url(../images/weapons/fillet-blade.png);
+}
+
+.freedom-sworn {
+  background-image: url(../images/weapons/freedom-sworn.png);
+}
+
+.hakushin-ring {
+  background-image: url(../images/weapons/hakushin-ring.png);
+}
+
+.halberd {
+  background-image: url(../images/weapons/halberd.png);
+}
+
+.hamayumi {
+  background-image: url(../images/weapons/hamayumi.png);
+}
+
+.harbinger-of-dawn {
+  background-image: url(../images/weapons/harbinger-of-dawn.png);
+}
+
+.hunters-bow {
+  background-image: url(../images/weapons/hunters-bow.png);
+}
+
+.iron-point {
+  background-image: url(../images/weapons/iron-point.png);
+}
+
+.iron-sting {
+  background-image: url(../images/weapons/iron-sting.png);
+}
+
+.jade-orb {
+  background-image: url(../images/weapons/jade-orb.png);
+}
+
+.katsuragikiri-nagamasa {
+  background-image: url(../images/weapons/katsuragikiri-nagamasa.png);
+}
+
+.kitain-cross-spear {
+  background-image: url(../images/weapons/kitain-cross-spear.png);
+}
+
+.kunwus-iris-rift {
+  background-image: url(../images/weapons/kunwus-iris-rift.png);
+}
+
+.lions-roar {
+  background-image: url(../images/weapons/lions-roar.png);
+}
+
+.lithic-blade {
+  background-image: url(../images/weapons/lithic-blade.png);
+}
+
+.lithic-spear {
+  background-image: url(../images/weapons/lithic-spear.png);
+}
+
+.lost-prayer-to-the-sacred-winds {
+  background-image: url(../images/weapons/lost-prayer-to-the-sacred-winds.png);
+}
+
+.magic-guide {
+  background-image: url(../images/weapons/magic-guide.png);
+}
+
+.mappa-mare {
+  background-image: url(../images/weapons/mappa-mare.png);
+}
+
+.memory-of-dust {
+  background-image: url(../images/weapons/memory-of-dust.png);
+}
+
+.messenger {
+  background-image: url(../images/weapons/messenger.png);
+}
+
+.mistsplitter-reforged {
+  background-image: url(../images/weapons/mistsplitter-reforged.png);
+}
+
+.mitternachts-waltz {
+  background-image: url(../images/weapons/mitternachts-waltz.png);
+}
+
+.old-mercs-pal {
+  background-image: url(../images/weapons/old-mercs-pal.png);
+}
+
+.otherworldly-story {
+  background-image: url(../images/weapons/otherworldly-story.png);
+}
+
+.pocket-grimoire {
+  background-image: url(../images/weapons/pocket-grimoire.png);
+}
+
+.primordial-jade-cutter {
+  background-image: url(../images/weapons/primordial-jade-cutter.png);
+}
+
+.primordial-jade-winged-spear {
+  background-image: url(../images/weapons/primordial-jade-winged-spear.png);
+}
+
+.prototype-aminus {
+  background-image: url(../images/weapons/prototype-aminus.png);
+}
+
+.prototype-crescent {
+  background-image: url(../images/weapons/prototype-crescent.png);
+}
+
+.prototype-grudge {
+  background-image: url(../images/weapons/prototype-grudge.png);
+}
+
+.prototype-malice {
+  background-image: url(../images/weapons/prototype-malice.png);
+}
+
+.prototype-rancour {
+  background-image: url(../images/weapons/prototype-rancour.png);
+}
+
+.quartz {
+  background-image: url(../images/weapons/quartz.png);
+}
+
+.rainslasher {
+  background-image: url(../images/weapons/rainslasher.png);
+}
+
+.raven-bow {
+  background-image: url(../images/weapons/raven-bow.png);
+}
+
+.recurve-bow {
+  background-image: url(../images/weapons/recurve-bow.png);
+}
+
+.royal-bow {
+  background-image: url(../images/weapons/royal-bow.png);
+}
+
+.royal-greatsword {
+  background-image: url(../images/weapons/royal-greatsword.png);
+}
+
+.royal-grimoire {
+  background-image: url(../images/weapons/royal-grimoire.png);
+}
+
+.royal-longsword {
+  background-image: url(../images/weapons/royal-longsword.png);
+}
+
+.rust {
+  background-image: url(../images/weapons/rust.png);
+}
+
+.sacrificial-bow {
+  background-image: url(../images/weapons/sacrificial-bow.png);
+}
+
+.sacrificial-fragments {
+  background-image: url(../images/weapons/sacrificial-fragments.png);
+}
+
+.sacrificial-greatsword {
+  background-image: url(../images/weapons/sacrificial-greatsword.png);
+}
+
+.sacrificial-sword {
+  background-image: url(../images/weapons/sacrificial-sword.png);
+}
+
+.seasoned-hunters-bow {
+  background-image: url("../images/weapons/seasoned-hunter's-bow.png");
+}
+
+.serpent-spine {
+  background-image: url(../images/weapons/serpent-spine.png);
+}
+
+.sharpshooters-oath {
+  background-image: url(../images/weapons/sharpshooters-oath.png);
+}
+
+.silver-sword {
+  background-image: url(../images/weapons/silver-sword.png);
+}
+
+.skyrider-greatsword {
+  background-image: url(../images/weapons/skyrider-greatsword.png);
+}
+
+.skyrider-sword {
+  background-image: url(../images/weapons/skyrider-sword.png);
+}
+
+.skyward-atlas {
+  background-image: url(../images/weapons/skyward-atlas.png);
+}
+
+.skyward-blade {
+  background-image: url(../images/weapons/skyward-blade.png);
+}
+
+.skyward-harp {
+  background-image: url(../images/weapons/skyward-harp.png);
+}
+
+.skyward-pride {
+  background-image: url(../images/weapons/skyward-pride.png);
+}
+
+.skyward-spine {
+  background-image: url(../images/weapons/skyward-spine.png);
+}
+
+.slingshot {
+  background-image: url(../images/weapons/slingshot.png);
+}
+
+.solar-pearl {
+  background-image: url(../images/weapons/solar-pearl.png);
+}
+
+.song-of-broken-pines {
+  background-image: url(../images/weapons/song-of-broken-pines.png);
+}
+
+.staff-of-homa {
+  background-image: url(../images/weapons/staff-of-homa.png);
+}
+
+.summit-shaper {
+  background-image: url(../images/weapons/summit-shaper.png);
+}
+
+.sword-of-descension {
+  background-image: url(../images/weapons/sword-of-descension.png);
+}
+
+.the-alley-flash {
+  background-image: url(../images/weapons/the-alley-flash.png);
+}
+
+.the-bell {
+  background-image: url(../images/weapons/the-bell.png);
+}
+
+.the-black-sword {
+  background-image: url(../images/weapons/the-black-sword.png);
+}
+
+.the-flute {
+  background-image: url(../images/weapons/the-flute.png);
+}
+
+.the-stringless {
+  background-image: url(../images/weapons/the-stringless.png);
+}
+
+.the-unforged {
+  background-image: url(../images/weapons/the-unforged.png);
+}
+
+.the-viridescent-hunt {
+  background-image: url(../images/weapons/the-viridescent-hunt.png);
+}
+
+.the-widsith {
+  background-image: url(../images/weapons/the-widsith.png);
+}
+
+.thrilling-tales-of-dragon-slayers {
+  background-image: url(../images/weapons/thrilling-tales-of-dragon-slayers.png);
+}
+
+.thundering-pulse {
+  background-image: url(../images/weapons/thundering-pulse.png);
+}
+
+.travelers-handy-sword {
+  background-image: url(../images/weapons/travelers-handy-sword.png);
+}
+
+.twin-nephrite {
+  background-image: url(../images/weapons/twin-nephrite.png);
+}
+
+.vortex-vanquisher {
+  background-image: url(../images/weapons/vortex-vanquisher.png);
+}
+
+.waster-greatsword {
+  background-image: url(../images/weapons/waster-greatsword.png);
+}
+
+.whiteblind {
+  background-image: url(../images/weapons/whiteblind.png);
+}
+
+.white-iron-greatsword {
+  background-image: url(../images/weapons/white-iron-greatsword.png);
+}
+
+.white-tassel {
+  background-image: url(../images/weapons/white-tassel.png);
+}
+
+.wine-and-song {
+  background-image: url(../images/weapons/wine-and-song.png);
+}
+
+.wolfs-gravestone {
+  background-image: url(../images/weapons/wolfs-gravestone.png);
+}
+
+.Albedo {
+  background-image: url(../images/characters/Albedo.png);
+}
+
+.Amber {
+  background-image: url(../images/characters/Amber.png);
+}
+
+.Ayaka {
+  background-image: url(../images/characters/Ayaka.png);
+}
+
+.Barbara {
+  background-image: url(../images/characters/Barbara.png);
+}
+
+.Beidou {
+  background-image: url(../images/characters/Beidou.png);
+}
+
+.Bennett {
+  background-image: url(../images/characters/Bennett.png);
+}
+
+.Chongyun {
+  background-image: url(../images/characters/Chongyun.png);
+}
+
+.Diluc {
+  background-image: url(../images/characters/Diluc.png);
+}
+
+.Diona {
+  background-image: url(../images/characters/Diona.png);
+}
+
+.Eula {
+  background-image: url(../images/characters/Eula.png);
+}
+
+.Fischl {
+  background-image: url(../images/characters/Fischl.png);
+}
+
+.Ganyu {
+  background-image: url(../images/characters/Ganyu.png);
+}
+
+.Hu-Tao {
+  background-image: url(../images/characters/Hu-Tao.png);
+}
+
+.Jean {
+  background-image: url(../images/characters/Jean.png);
+}
+
+.Kaeya {
+  background-image: url(../images/characters/Kaeya.png);
+}
+
+.Kazuha {
+  background-image: url(../images/characters/Kazuha.png);
+}
+
+.Keqing {
+  background-image: url(../images/characters/Keqing.png);
+}
+
+.Klee {
+  background-image: url(../images/characters/Klee.png);
+}
+
+.Kokomi {
+  background-image: url(../images/characters/Kokomi.png);
+}
+
+.Lisa {
+  background-image: url(../images/characters/Lisa.png);
+}
+
+.Mona {
+  background-image: url(../images/characters/Mona.png);
+}
+
+.Ningguang {
+  background-image: url(../images/characters/Ningguang.png);
+}
+
+.Noelle {
+  background-image: url(../images/characters/Noelle.png);
+}
+
+.Qiqi {
+  background-image: url(../images/characters/Qiqi.png);
+}
+
+.Razor {
+  background-image: url(../images/characters/Razor.png);
+}
+
+.Rosaria {
+  background-image: url(../images/characters/Rosaria.png);
+}
+
+.Sara {
+  background-image: url(../images/characters/Sara.png);
+}
+
+.Sayu {
+  background-image: url(../images/characters/Sara.png);
+}
+
+.Shogun {
+  background-image: url(../images/characters/Shogun.png);
+}
+
+.Sucrose {
+  background-image: url(../images/characters/Sucrose.png);
+}
+
+.Tartaglia {
+  background-image: url(../images/characters/Tartaglia.png);
+}
+
+.Venti {
+  background-image: url(../images/characters/Venti.png);
+}
+
+.Xiangling {
+  background-image: url(../images/characters/Xiangling.png);
+}
+
+.Xiao {
+  background-image: url(../images/characters/Xiao.png);
+}
+
+.Xingqiu {
+  background-image: url(../images/characters/Xingqiu.png);
+}
+
+.Xinyan {
+  background-image: url(../images/characters/Xinyan.png);
+}
+
+.Yanfei {
+  background-image: url(../images/characters/Yanfei.png);
+}
+
+.Yoimiya {
+  background-image: url(../images/characters/Yoimiya.png);
+}
+
+.Zhongli {
+  background-image: url(../images/characters/Zhongli.png);
+}

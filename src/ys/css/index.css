@@ -1,0 +1,96 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+.wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(130deg, #1674df, transparent);
+}
+
+.wish-buttons {
+  position: fixed;
+  bottom: 2%;
+  right: 10px;
+  display: flex;
+}
+
+.wish-buttons .wish-button {
+  margin: 0 2px;
+  background: url(../images/ui/wish-button.png) center no-repeat;
+  background-size: contain;
+  width: 170px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #d4bc8f;
+}
+
+.wish-buttons .wish-button:hover,
+.wish-buttons .wish-button:active {
+  color: gold;
+}
+
+.wish-buttons .wish-button:last-child {
+  margin-right: 0;
+}
+
+.wish-result {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: url(../images/ui/wish-details-background.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.wish-result .single-result {
+  margin: 50px;
+  height: calc(100% - 100px);
+  border-radius: 10px;
+  background-position: 60%;
+}
+
+.wish-result .multiple-result {
+  margin: 50px;
+  height: calc(100% - 100px);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 10px;
+}
+
+.wish-result .multiple-result .portrait {
+  width: 48%;
+  height: 100px;
+  background-size: contain;
+}
+
+.wish-result .multiple-result .landscape {
+  width: 18%;
+  height: 100px;
+  background-size: contain;
+}
+
+.opacity10 {
+  opacity: 0.1;
+}
+
+.opacity100 {
+  opacity: 1;
+}
+
+.fadeIn {
+  animation: fadeIn 1500ms 1;
+}
+
+@keyframes fadeIn {
+  100% {
+    opacity: 1;
+  }
+}
